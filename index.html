@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emagreça Sem Dietas - O Método Revolucionário</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        .hero-gradient {
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+        }
+        .btn-gradient {
+            background: linear-gradient(to right, #ff758c, #ff7eb3);
+            transition: all 0.3s ease;
+        }
+        .btn-gradient:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 20px rgba(255, 117, 140, 0.3);
+        }
+        .testimonial-card {
+            transition: all 0.3s ease;
+        }
+        .testimonial-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+        }
+        .floating {
+            animation: floating 3s ease-in-out infinite;
+        }
+        @keyframes floating {
+            0% { transform: translateY(0px); }
+            50% { transform: translateY(-15px); }
+            100% { transform: translateY(0px); }
+        }
+    </style>
+</head>
+<body class="font-sans bg-gray-50">
+    <!-- Header/Navigation -->
+    <header class="bg-white shadow-sm sticky top-0 z-50">
+        <div class="container mx-auto px-6 py-4">
+            <div class="flex items-center justify-between">
+                <div class="flex items-center">
+                    <i class="fas fa-dumbbell text-3xl text-red-500 mr-2"></i>
+                    <span class="text-xl font-bold text-gray-800">CALFIT</span>
+</div>
+                <nav class="hidden md:flex space-x-8">
+                    <a href="#beneficios" class="text-gray-600 hover:text-red-500 font-medium">Benefícios</a>
+                    <a href="#como-funciona" class="text-gray-600 hover:text-red-500 font-medium">Como Funciona</a>
+                    <a href="#depoimentos" class="text-gray-600 hover:text-red-500 font-medium">Depoimentos</a>
+                    <a href="#oferta" class="text-gray-600 hover:text-red-500 font-medium">Oferta</a>
+                </nav>
+                <button class="md:hidden focus:outline-none">
+                    <i class="fas fa-bars text-2xl text-gray-600"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero-gradient py-20 px-4">
+        <div class="container mx-auto flex flex-col md:flex-row items-center">
+            <div class="md:w-1/2 mb-10 md:mb-0">
+                <h1 class="text-4xl md:text-5xl font-bold text-gray-800 leading-tight mb-6">
+                    Emagreça <span class="text-red-500">comendo o que mais ama</span> e chegue no shape!
+</h1>
+                <p class="text-xl text-gray-600 mb-8">
+                    Aquele churrasco no final de semana? A cerveja com os amigos? A ceia de Natal? Com o CALFIT, emagrecer pode ser prazeroso e você ainda chega no shape para arrasar na praia!
+</p>
+                <div class="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4">
+                    <a href="#oferta" class="btn-gradient text-white font-bold py-4 px-8 rounded-full text-center">
+                        Quero Emagrecer Agora!
+                    </a>
+                    <a href="#como-funciona" class="bg-white text-gray-800 font-bold py-4 px-8 rounded-full text-center border-2 border-gray-200 hover:border-red-300 transition">
+                        Saiba Mais
+                    </a>
+                </div>
+            </div>
+            <div class="md:w-1/2 flex justify-center">
+                <img src="https://images.unsplash.com/photo-1565299507177-b0ac66763828?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" 
+                     alt="Mesa com hambúrgueres" 
+                     class="rounded-lg shadow-xl floating max-w-md w-full">
+</div>
+        </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section id="beneficios" class="py-20 bg-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl md:text-4xl font-bold text-center text-gray-800 mb-16">
+                Por que nosso método é <span class="text-red-500">diferente</span>?
+            </h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-10">
+                <!-- Benefit 1 -->
+                <div class="bg-gray-50 p-8 rounded-xl shadow-sm hover:shadow-md transition">
+                    <div class="w-16 h-16 bg-red-100 rounded-full flex items-center justify-center mb-6">
+                        <i class="fas fa-utensils text-2xl text-red-500"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-800 mb-3">Sem restrições alimentares</h3>
+                    <p class="text-gray-600">
+                        Você não precisa cortar pizza, chocolate ou qualquer outro alimento que ama. Aprenda a equilibrar sem sofrimento.
+                    </p>
+                </div>
+                
+                <!-- Benefit 2 -->
+                <div class="bg-gray-50 p-8 rounded-xl shadow-sm hover:shadow-md transition">
+                    <div class="w-16 h-16 bg-red-100 rounded-full flex items-center justify-center mb-6">
+                        <i class="fas fa-heartbeat text-2xl text-red-500"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-800 mb-3">Resultados duradouros</h3>
+                    <p class="text-gray-600">
+                        Não é dieta da moda! Um método sustentável que você pode seguir para sempre, mantendo o peso ideal sem efeito sanfona.
+                    </p>
+                </div>
+                
+                <!-- Benefit 3 -->
+                <div class="bg-gray-50 p-8 rounded-xl shadow-sm hover:shadow-md transition">
+                    <div class="w-16 h-16 bg-red-100 rounded-full flex items-center justify-center mb-6">
+                        <i class="fas fa-brain text-2xl text-red-500"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-800 mb-3">Mudança de mentalidade</h3>
+                    <p class="text-gray-600">
+                        Aprenda a se relacionar de forma saudável com a comida, sem culpa e sem compulsão. O segredo está na sua mente!
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section id="como-funciona" class="py-20 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl md:text-4xl font-bold text-center text-gray-800 mb-16">
+                Como <span class="text-red-500">funciona</span> o método?
+            </h2>
+            
+            <div class="flex flex-col md:flex-row items-center mb-16">
+                <div class="md:w-1/2 mb-10 md:mb-0 md:pr-10">
+                    <h3 class="text-2xl font-bold text-gray-800 mb-4">1. Coma o que ama, mas de forma inteligente</h3>
+                    <p class="text-gray-600 mb-6">
+                        Você vai aprender técnicas simples para continuar comendo seus alimentos favoritos, mas em quantidades e momentos que favorecem o emagrecimento.
+                    </p>
+                    <ul class="space-y-3">
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-green-500 mt-1 mr-2"></i>
+                            <span class="text-gray-700">Nenhum alimento é proibido</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-green-500 mt-1 mr-2"></i>
+                            <span class="text-gray-700">Combinações que aceleram o metabolismo</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-green-500 mt-1 mr-2"></i>
+                            <span class="text-gray-700">Horários estratégicos para cada tipo de alimento</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="md:w-1/2">
+                    <img src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" 
+                         alt="Comida variada e saudável" 
+                         class="rounded-lg shadow-lg w-full">
+                </div>
+            </div>
+            
+            <div class="flex flex-col md:flex-row items-center mt-16">
+                <div class="md:w-1/2 order-2 md:order-1">
+                    <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" 
+                         alt="Mulher medindo a cintura" 
+                         class="rounded-lg shadow-lg w-full">
+                </div>
+                <div class="md:w-1/2 mb-10 md:mb-0 md:pl-10 order-1 md:order-2">
+                    <h3 class="text-2xl font-bold text-gray-800 mb-4">2. O poder da mente no emagrecimento</h3>
+                    <p class="text-gray-600 mb-6">
+                        Aprenda técnicas psicológicas comprovadas que vão te ajudar a controlar a compulsão alimentar e desenvolver hábitos saudáveis naturalmente.
+                    </p>
+                    <ul class="space-y-3">
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-green-500 mt-1 mr-2"></i>
+                            <span class="text-gray-700">Como reprogramar seu cérebro para preferir alimentos saudáveis</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-green-500 mt-1 mr-2"></i>
+                            <span class="text-gray-700">Técnicas para reduzir a ansiedade e a vontade de comer</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-green-500 mt-1 mr-2"></i>
+                            <span class="text-gray-700">Exercícios para fortalecer sua força de vontade</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="depoimentos" class="py-20 bg-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl md:text-4xl font-bold text-center text-gray-800 mb-16">
+                O que dizem nossos <span class="text-red-500">alunos</span>?
+            </h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Testimonial 1 -->
+                <div class="testimonial-card bg-gray-50 p-8 rounded-xl shadow-sm">
+                    <div class="flex items-center mb-4">
+                        <img src="https://randomuser.me/api/portraits/women/43.jpg" 
+                             alt="Ana Clara" 
+                             class="w-12 h-12 rounded-full mr-4">
+                        <div>
+                            <h4 class="font-bold text-gray-800">Ana Clara</h4>
+                            <div class="flex text-yellow-400">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="text-gray-600 italic">
+                        "Depois de tentar todas as dietas possíveis, finalmente encontrei um método que me permite comer o que gosto e ainda assim emagrecer. Perdi 12kg em 3 meses sem sofrimento!"
+                    </p>
+                </div>
+                
+                <!-- Testimonial 2 -->
+                <div class="testimonial-card bg-gray-50 p-8 rounded-xl shadow-sm">
+                    <div class="flex items-center mb-4">
+                        <img src="https://randomuser.me/api/portraits/men/32.jpg" 
+                             alt="Carlos Eduardo" 
+                             class="w-12 h-12 rounded-full mr-4">
+                        <div>
+                            <h4 class="font-bold text-gray-800">Carlos Eduardo</h4>
+                            <div class="flex text-yellow-400">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="text-gray-600 italic">
+                        "Nunca imaginei que poderia emagrecer comendo pizza nos finais de semana. Esse método mudou minha vida! Perdi 8kg e mantive o peso por mais de um ano."
+                    </p>
+                </div>
+                
+                <!-- Testimonial 3 -->
+                <div class="testimonial-card bg-gray-50 p-8 rounded-xl shadow-sm">
+                    <div class="flex items-center mb-4">
+                        <img src="https://randomuser.me/api/portraits/women/65.jpg" 
+                             alt="Juliana Santos" 
+                             class="w-12 h-12 rounded-full mr-4">
+                        <div>
+                            <h4 class="font-bold text-gray-800">Juliana Santos</h4>
+                            <div class="flex text-yellow-400">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="text-gray-600 italic">
+                        "Depois de ter meu bebê, estava desesperada para perder peso. Esse ebook me ensinou a me alimentar melhor sem radicalismos. Perdi 15kg em 5 meses e me sinto ótima!"
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Offer Section -->
+    <section id="oferta" class="py-20 bg-gradient-to-r from-red-500 to-pink-500">
+        <div class="container mx-auto px-4">
+            <div class="max-w-4xl mx-auto bg-white rounded-xl shadow-2xl overflow-hidden">
+                <div class="md:flex">
+                    <div class="md:w-1/2 p-10">
+                        <h2 class="text-3xl font-bold text-gray-800 mb-6">
+                            Transforme seu corpo sem sofrimento!
+                        </h2>
+                        <ul class="space-y-4 mb-8">
+                            <li class="flex items-start">
+                                <i class="fas fa-check-circle text-green-500 text-xl mr-2 mt-1"></i>
+                                <span class="text-gray-700">Método 100% natural sem remédios ou cirurgias</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check-circle text-green-500 text-xl mr-2 mt-1"></i>
+                                <span class="text-gray-700">Nenhum alimento é proibido - coma o que ama</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check-circle text-green-500 text-xl mr-2 mt-1"></i>
+                                <span class="text-gray-700">Resultados comprovados por milhares de pessoas</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check-circle text-green-500 text-xl mr-2 mt-1"></i>
+                                <span class="text-gray-700">Acesso imediato após a compra</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check-circle text-green-500 text-xl mr-2 mt-1"></i>
+                                <span class="text-gray-700">Bônus exclusivos para os primeiros compradores</span>
+                            </li>
+                        </ul>
+                        
+                        <div class="bg-yellow-50 border-l-4 border-yellow-400 p-4 mb-8">
+                            <div class="flex">
+                                <div class="flex-shrink-0">
+                                    <i class="fas fa-exclamation-circle text-yellow-400 text-xl"></i>
+                                </div>
+                                <div class="ml-3">
+                                    <p class="text-sm text-yellow-700">
+                                        <span class="font-bold">Oferta por tempo limitado!</span> Garanta agora mesmo o ebook completo + bônus por um preço especial.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="md:w-1/2 bg-gray-50 p-10 flex flex-col justify-between">
+                        <div>
+                            <div class="text-center mb-6">
+                                <span class="text-4xl font-bold text-red-500">R$ 35,00</span>
+                                <span class="text-gray-500 line-through ml-2">R$ 87,50</span>
+</div>
+<ul class="space-y-3 mb-8">
+                                <li class="flex items-center">
+                                    <i class="fas fa-book text-red-500 mr-2"></i>
+                                    <span>Ebook completo (PDF, ePub, Mobi)</span>
+                                </li>
+                                <li class="flex items-center">
+                                    <i class="fas fa-headphones text-red-500 mr-2"></i>
+                                    <span>Versão em áudio</span>
+                                </li>
+                            </ul>
+</div>
+                        <a href="pagamento.html" class="btn-gradient text-white font-bold py-4 px-8 rounded-full text-center block">
+                            <i class="fas fa-shopping-cart mr-2"></i> Comprar Agora
+                        </a>
+<div class="mt-4 text-center">
+<p class="text-xs text-gray-500 mt-2">
+                                Compra 100% segura. 7 dias de garantia incondicional.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="py-20 bg-gray-50">
+        <div class="container mx-auto px-4 max-w-4xl">
+            <h2 class="text-3xl md:text-4xl font-bold text-center text-gray-800 mb-16">
+                Perguntas <span class="text-red-500">frequentes</span>
+            </h2>
+            
+            <div class="space-y-6">
+                <!-- FAQ 1 -->
+                <div class="bg-white p-6 rounded-lg shadow-sm">
+                    <button class="flex justify-between items-center w-full focus:outline-none">
+                        <h3 class="text-lg font-medium text-gray-800">Preciso cortar algum alimento que amo?</h3>
+                        <i class="fas fa-chevron-down text-red-500 transition-transform duration-300"></i>
+                    </button>
+                    <div class="mt-4 text-gray-600 hidden">
+                        <p>Absolutamente não! Nosso método não proíbe nenhum alimento. Você vai aprender a equilibrar sua alimentação incluindo tudo o que gosta, mas de forma estratégica para favorecer o emagrecimento.</p>
+                    </div>
+                </div>
+                
+                <!-- FAQ 2 -->
+                <div class="bg-white p-6 rounded-lg shadow-sm">
+                    <button class="flex justify-between items-center w-full focus:outline-none">
+                        <h3 class="text-lg font-medium text-gray-800">Quanto tempo leva para ver resultados?</h3>
+                        <i class="fas fa-chevron-down text-red-500 transition-transform duration-300"></i>
+                    </button>
+                    <div class="mt-4 text-gray-600 hidden">
+                        <p>Isso varia de pessoa para pessoa, mas a maioria de nossos alunos começa a notar diferenças já nas primeiras 2-3 semanas. Resultados mais significativos geralmente aparecem após 6-8 semanas de aplicação consistente do método.</p>
+                    </div>
+                </div>
+                
+                <!-- FAQ 3 -->
+                <div class="bg-white p-6 rounded-lg shadow-sm">
+                    <button class="flex justify-between items-center w-full focus:outline-none">
+                        <h3 class="text-lg font-medium text-gray-800">Preciso fazer exercícios físicos?</h3>
+                        <i class="fas fa-chevron-down text-red-500 transition-transform duration-300"></i>
+                    </button>
+                    <div class="mt-4 text-gray-600 hidden">
+                        <p>Embora a atividade física sempre traga benefícios adicionais, nosso foco principal é na alimentação. Você pode emagrecer apenas seguindo as orientações do ebook. No entanto, incluímos um bônus com sugestões de atividades simples que podem potencializar seus resultados.</p>
+                    </div>
+                </div>
+                
+                <!-- FAQ 4 -->
+                <div class="bg-white p-6 rounded-lg shadow-sm">
+                    <button class="flex justify-between items-center w-full focus:outline-none">
+                        <h3 class="text-lg font-medium text-gray-800">Como receberei o material após a compra?</h3>
+                        <i class="fas fa-chevron-down text-red-500 transition-transform duration-300"></i>
+                    </button>
+                    <div class="mt-4 text-gray-600 hidden">
+                        <p>Imediatamente após a confirmação do pagamento, você receberá um e-mail com os links para download de todas as versões do ebook (PDF, ePub e Mobi), além dos bônus. Não há espera por entrega física - você pode começar agora mesmo!</p>
+                    </div>
+                </div>
+                
+                <!-- FAQ 5 -->
+                <div class="bg-white p-6 rounded-lg shadow-sm">
+                    <button class="flex justify-between items-center w-full focus:outline-none">
+                        <h3 class="text-lg font-medium text-gray-800">E se eu não gostar do método?</h3>
+                        <i class="fas fa-chevron-down text-red-500 transition-transform duration-300"></i>
+                    </button>
+                    <div class="mt-4 text-gray-600 hidden">
+                        <p>Oferecemos uma garantia incondicional de 7 dias. Se por qualquer motivo você não ficar satisfeito(a), basta nos enviar um e-mail dentro desse período e devolveremos 100% do seu dinheiro, sem questionamentos.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-12">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-col md:flex-row justify-between">
+                <div class="mb-8 md:mb-0">
+                    <div class="flex items-center mb-4">
+                        <i class="fas fa-dumbbell text-3xl text-red-500 mr-2"></i>
+                        <span class="text-xl font-bold">CALFIT</span>
+</div>
+                    <p class="text-gray-400 max-w-xs">
+                        O método que prova que emagrecer pode ser prazeroso - coma seu churrasco, cerveja e ceias sem culpa e chegue no shape!
+</p>
+                </div>
+                
+                <div class="grid grid-cols-2 md:grid-cols-3 gap-8">
+                    <div>
+                        <h4 class="text-lg font-bold mb-4">Links</h4>
+                        <ul class="space-y-2">
+                            <li><a href="#" class="text-gray-400 hover:text-white">Início</a></li>
+                            <li><a href="#beneficios" class="text-gray-400 hover:text-white">Benefícios</a></li>
+                            <li><a href="#como-funciona" class="text-gray-400 hover:text-white">Como Funciona</a></li>
+                            <li><a href="#depoimentos" class="text-gray-400 hover:text-white">Depoimentos</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div>
+                        <h4 class="text-lg font-bold mb-4">Legal</h4>
+                        <ul class="space-y-2">
+                            <li><a href="#" class="text-gray-400 hover:text-white">Termos de Uso</a></li>
+                            <li><a href="#" class="text-gray-400 hover:text-white">Política de Privacidade</a></li>
+                            <li><a href="#" class="text-gray-400 hover:text-white">Garantia</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div>
+                        <h4 class="text-lg font-bold mb-4">Contato</h4>
+                        <ul class="space-y-2">
+                            <li class="flex items-center">
+                                <i class="fas fa-envelope text-red-500 mr-2"></i>
+                                <span class="text-gray-400">calfitoficial0001@gmail.com</span>
+</li>
+</ul>
+                        <div class="flex space-x-4 mt-4">
+                            <a href="#" class="text-gray-400 hover:text-white">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                            <a href="#" class="text-gray-400 hover:text-white">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                            <a href="#" class="text-gray-400 hover:text-white">
+                                <i class="fab fa-youtube"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="border-t border-gray-700 mt-12 pt-8 text-center text-gray-400">
+                <p>&copy; 2023 CALFIT. Todos os direitos reservados.</p>
+<p class="text-sm mt-2">Este produto não substitui o parecer médico profissional. Sempre consulte um médico antes de iniciar qualquer programa de emagrecimento.</p>
+            </div>
+        </div>
+    </footer>
+<script>
+        // FAQ Accordion
+        document.querySelectorAll('.bg-white button').forEach(button => {
+            button.addEventListener('click', () => {
+                const faqItem = button.parentElement;
+                const content = button.nextElementSibling;
+                const icon = button.querySelector('i');
+                
+                // Toggle content
+                content.classList.toggle('hidden');
+                
+                // Rotate icon
+                if (content.classList.contains('hidden')) {
+                    icon.classList.remove('transform', 'rotate-180');
+                } else {
+                    icon.classList.add('transform', 'rotate-180');
+                }
+            });
+        });
+
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+<p style="border-radius: 8px; text-align: center; font-size: 12px; color: #fff; margin-top: 16px;position: fixed; left: 8px; bottom: 8px; z-index: 10; background: rgba(0, 0, 0, 0.8); padding: 4px 8px;">Made with <img src="https://enzostvs-deepsite.hf.space/logo.svg" alt="DeepSite Logo" style="width: 16px; height: 16px; vertical-align: middle;display:inline-block;margin-right:3px;filter:brightness(0) invert(1);"><a href="https://enzostvs-deepsite.hf.space" style="color: #fff;text-decoration: underline;" target="_blank" >DeepSite</a> - 🧬 <a href="https://enzostvs-deepsite.hf.space?remix=bakuro0/ebook-de-dieta" style="color: #fff;text-decoration: underline;" target="_blank" >Remix</a></p></body>
+</html>
